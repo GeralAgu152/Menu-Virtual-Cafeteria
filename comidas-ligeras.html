@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>✨ CoffeeCloud - Comidas Ligeras</title>
+</head>
+
+<body>
+
+<header>
+        <nav class="navbar section-content">
+            <a href="index.html" class="nav-logo">
+                <h2 class="logo-text">☕ CoffeeCloud</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">Acerca</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#menu" class="nav-link">Menú</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#booking" class="nav-link">reserva</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contacto</a>
+                </li>
+                <li class="nav-item order-icon-container">
+                    <a href="factura.html" id="order-icon-link" title="Ver Factura">
+                        <i class="fas fa-receipt" id="order-icon"></i>
+                    </a>
+                    <span id="order-count">0</span>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="menu-section" id="comida-ligera-menu">
+            <h2 class="section-title">Nuestra Comida Ligera</h2>
+
+            <div class="comida-ligera-navigation-buttons">
+                <a href="#desayuno-ligero-section" class="button-category">Desayuno y Brunch</a>
+                <a href="#sandwiches-wraps-section" class="button-category">Sándwiches y Wraps</a>
+                <a href="#ensaladas-bowls-section" class="button-category">Ensaladas y Bowls</a>
+                <a href="#panaderia-salada-section" class="button-category">Panadería Salada</a>
+                <a href="#panaderia-dulce-section" class="button-category">Panadería Dulce</a>
+
+            </div>
+
+            <h3 class="subsection-title" id="desayuno-ligero-section">Desayuno y Brunch Ligero</h3>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/parfait-yogur.jpg" alt="Parfait de Yogur" class="menu-image">
+                        <h3 class="name">Parfait de Yogur con Frutas y Granola</h3>
+                        <p class="text">Capas de yogur natural cremoso, granola casera crujiente y una selección de frutas frescas de temporada. Una opción nutritiva y refrescante.</p>
+                        <p class="price">$9.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/avena-frutos-rojos.jpg" alt="Avena preparada" class="menu-image">
+                        <h3 class="name">Avena Caliente con Toppings</h3>
+                        <p class="text">Avena cremosa servida caliente, acompañada de tu elección de miel, canela, frutos secos, o frutas frescas. Perfecta para un inicio de día reconfortante.</p>
+                        <p class="price">$8.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/tostada-aguacate.jpg" alt="Tostada de Aguacate" class="menu-image">
+                        <h3 class="name">Tostada de Aguacate Clásica</h3>
+                        <p class="text">Rebanada de pan artesanal tostado, cubierto con aguacate fresco machacado, un toque de sal marina, pimienta y semillas de chía.</p>
+                        <p class="price">$11.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/tostada-salmon.jpg" alt="Tostada de Salmón" class="menu-image">
+                        <h3 class="name">Tostada de Salmón y Queso Crema</h3>
+                        <p class="text">Pan rústico tostado con untuoso queso crema y finas lonchas de salmón ahumado. Un bocado elegante y delicioso.</p>
+                        <p class="price">$14.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/waffles.jpg" alt="Waffles con Frutos Rojos y Miel" class="menu-image">
+                        <h3 class="name">Waffles con Frutos Rojos y Miel</h3>
+                        <p class="text">Waffles dorados y esponjosos, servidos con una generosa porción de fresas y arándanos frescos, bañados en miel de abeja pura. ¡Un deleite para el desayuno o brunch!</p>
+                        <p class="price">$13.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/migao.png" alt="Migao con Galletas de Soda" class="menu-image">
+                        <h3 class="name">Migao Reconfortante</h3>
+                        <p class="text">Sopa espesa y caliente, con trozos de carne, vegetales y galletas de soda crujientes. Un plato tradicional que te llenará de energía.</p>
+                        <p class="price">$8.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <h3 class="subsection-title" id="sandwiches-wraps-section">Sándwiches y Wraps</h3>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/sandwich-caprese.jpg" alt="Mini Sándwich Caprese" class="menu-image">
+                        <h3 class="name">Mini Sándwich Caprese</h3>
+                        <p class="text">Pan baguette fresco con rodajas de tomate, mozzarella de búfala, hojas de albahaca fresca y un toque de pesto. Un clásico italiano ligero.</p>
+                        <p class="price">$10.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/wrap-pollo-cesar.jpg" alt="Wrap de Pollo César" class="menu-image">
+                        <h3 class="name">Wrap de Pollo César</h3>
+                        <p class="text">Tortilla de trigo rellena de jugoso pollo a la parrilla, lechuga romana, queso parmesano y aderezo César cremoso. Ligero y lleno de sabor.</p>
+                        <p class="price">$12.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/wrap-mediterraneo.jpg" alt="Wrap Mediterráneo" class="menu-image">
+                        <h3 class="name">Wrap Mediterráneo Vegetariano</h3>
+                        <p class="text">Tortilla de espinacas con hummus, pepino, tomate, aceitunas kalamata y queso feta. Una explosión de frescura y sabor mediterráneo.</p>
+                        <p class="price">$11.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/sandwich-veggie-asado.jpg" alt="Sándwich de Vegetales Asados" class="menu-image">
+                        <h3 class="name">Sándwich de Vegetales Asados y Queso de Cabra</h3>
+                        <p class="text">Pan integral con pimentones asados, calabacín, berenjena y un cremoso queso de cabra. Opción deliciosa para vegetarianos.</p>
+                        <p class="price">$12.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <h3 class="subsection-title" id="ensaladas-bowls-section">Ensaladas y Bowls</h3>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/ensalada-quinoa.jpg" alt="Ensalada de Quinoa" class="menu-image">
+                        <h3 class="name">Ensalada de Quinoa Fresca</h3>
+                        <p class="text">Bowl lleno de quinoa, tomate cherry, pepino, pimentón, cebolla roja y hierbas frescas, con un aderezo ligero de limón y aceite de oliva.</p>
+                        <p class="price">$13.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/ensalada-pasta-fria.jpg" alt="Ensalada de Pasta Fría" class="menu-image">
+                        <h3 class="name">Ensalada de Pasta Fría con Pesto</h3>
+                        <p class="text">Pasta corta al dente mezclada con pesto casero, tomates secos, mozzarella mini y albahaca fresca. Ideal para un almuerzo rápido.</p>
+                        <p class="price">$10.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/bowl-frutas.jpg" alt="Bowl de Frutas Frescas" class="menu-image">
+                        <h3 class="name">Bowl de Frutas de Temporada</h3>
+                        <p class="text">Una refrescante selección de las mejores frutas frescas de la temporada, cuidadosamente cortadas y listas para disfrutar.</p>
+                        <p class="price">$8.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <h3 class="subsection-title" id="panaderia-salada-section">Panadería Salada</h3>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/croissant-jyq.jpg" alt="Croissant Jamón y Queso" class="menu-image">
+                        <h3 class="name">Croissant de Jamón y Queso</h3>
+                        <p class="text">Clásico croissant hojaldrado, relleno de jamón ahumado y queso fundido. Perfecto para un bocado rápido.</p>
+                        <p class="price">$7.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/muffin-salado.jpg" alt="Muffin Salado" class="menu-image">
+                        <h3 class="name">Muffin Salado de Espinaca y Feta</h3>
+                        <p class="text">Muffin esponjoso con espinacas frescas y queso feta. Una alternativa salada y deliciosa a los muffins tradicionales.</p>
+                        <p class="price">$6.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/mini-quiche.jpg" alt="Mini Quiche Lorraine" class="menu-image">
+                        <h3 class="name">Mini Quiche Lorraine</h3>
+                        <p class="text">Pequeña tarta salada con relleno cremoso de tocineta, queso y huevo. Ideal para un antojo salado.</p>
+                        <p class="price">$8.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <h3 class="subsection-title" id="panaderia-dulce-section">Panadería Dulce</h3>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/croissant-tradicional.jpg" alt="Croissant Tradicional Francés" class="menu-image">
+                        <h3 class="name">Croissant Tradicional Francés</h3>
+                        <p class="ftext">Hojaldre suave y mantecoso, horneado a la perfección hasta conseguir una capa exterior crujiente. Ideal solo o para acompañar tu café.</p>
+                        <p class="price">$5.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/muffin-arandanos.jpg" alt="Muffin de Arándanos" class="menu-image">
+                        <h3 class="name">Muffin de Arándanos con Crumb Topping</h3>
+                        <p class="text">Muffin jugoso repleto de arándanos frescos, con una deliciosa capa de streusel crujiente en la parte superior.</p>
+                        <p class="price">$7.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/cinnamon-roll.jpg" alt="Cinnamon Roll Glaseado" class="menu-image">
+                        <h3 class="name">Cinnamon Roll Glaseado</h3>
+                        <p class="text">Suave roll de masa dulce relleno con una mezcla aromática de canela y azúcar morena, cubierto con un glaseado cremoso.</p>
+                        <p class="price">$8.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/dona-glaseada.jpg" alt="Dona Glaseada Clásica" class="menu-image">
+                        <h3 class="name">Dona Glaseada Clásica</h3>
+                        <p class="text">Suave dona frita, ligeramente dulce y cubierta con un brillante glaseado de vainilla. Simple y deliciosa.</p>
+                        <p class="price">$5.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+                <a href="#comida-ligera-menu" class="back-to-top-button fas fa-arrow-up" id="backToTopBtn">Volver a Inicio</a>
+
+        ---
+
+        <footer class="footer-section">
+        <div class="section-content">
+            <p class="copyright-text">© 2025 Coffee Shop</p>
+
+            <div class="social-link-list">
+                <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+
+            <p class="policy-text">
+                <a href="#" class="policy-link">Póliticas de Privacidad</a>
+                <span class="separator">●</span>
+                <a href="#" class="policy-link">Política de Reembolso</a>
+            </p>
+        </div>
+        </footer>
+
+
+        </main>
+
+        <script src="js/script.js"></script>
+
+            
+
+</body>
+
+</html>

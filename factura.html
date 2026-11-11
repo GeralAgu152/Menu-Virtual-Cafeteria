@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>✨ CoffeeCloud - Factura</title>
+</head>
+<body>
+
+<header>
+    <nav class="navbar section-content">
+        <a href="index.html" class="nav-logo">
+            <h2 class="logo-text">☕ CoffeeCloud</h2>
+        </a>
+        <ul class="nav-menu">
+            <button id="menu-close-button" class="fas fa-times"></button>
+            <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+            <li class="nav-item"><a href="index.html#about" class="nav-link">Acerca</a></li>
+            <li class="nav-item"><a href="index.html#menu" class="nav-link">Menú</a></li>
+            <li class="nav-item"><a href="index.html#booking" class="nav-link">Reserva</a></li>
+            <li class="nav-item"><a href="index.html#contact" class="nav-link">Contacto</a></li>
+        </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+    </nav>
+</header>
+
+<main>
+    <div class="invoice">
+        <h1 class="main-title">SPECIAL <span>☕CoffeeCloud</span></h1>
+        <div class="invoice-info">
+            <div><h3>Factura</h3></div>
+            <div class="invoice-to">
+                <p><strong>Factura Para:</strong><br/>Name Address<br/>Lorem ipsum dolor sit amet,</p>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <div class="table-header">
+                <span>No</span>
+                <span>Descripcion</span>
+                <span>Precio</span>
+                <span>Cantidad</span>
+                <span>Total</span>
+                
+            </div>
+
+            <!-- Repetir por cada producto -->
+            <!-- Producto 1 -->
+            <!-- <div class="table-row">
+            <span>1</span>
+                <span>Lorem ipsum <i class="fas fa-edit edit-toggle" title="Editar"></i></span>
+                <span>0,00</span>
+                <span>1</span>
+                <span>0,00</span> 
+            </div>
+            <div class="edit-section hidden">
+                <label>Agregar:<input type="text" placeholder="Ej: cebolla"></label>
+                <label>No agregar:<input type="text" placeholder="Ej: queso"></label>
+                <div class="edit-buttons">
+                    <button class="save-btn">Guardar</button>
+                    <button class="cancel-btn">Cancelar</button>
+                </div>
+            </div> -->
+
+            <div id="product-rows"></div>
+        
+
+            
+
+            <div class="bottom">
+                <div class="terms">
+                    <h4>Términos y Condiciones</h4>
+                    <p>El pago debe realizarse al momento de la entrega. No se aceptan devoluciones
+                        por productos consumidos. Para reclamos, presentar esta factura dentro de 24 horas.</p>
+                    <p class="contact">
+                        <span>📍 Calle Magnolia #45, Barrio Las Palmeras, Medellín</span><br/>
+                        <span>📞 +57 313 631 26 30</span><br/>
+                        <a href="index.html" style="color: var(--primary-color); text-decoration: none;">🌐 www.coffecloud.co</a>
+                    </p>
+                </div>
+                <div class="summary">
+                    <p><strong>SUB TOTAL:</strong> 0,00</p>
+                    <p><strong>TAX:</strong> 0,00</p>
+                    <p class="total"><strong>TOTAL:</strong> 0,00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+        ---
+
+        <footer class="footer-section">
+        <div class="section-content">
+            <p class="copyright-text">© 2025 Coffee Shop</p>
+
+            <div class="social-link-list">
+                <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+
+            <p class="policy-text">
+                <a href="#" class="policy-link">Póliticas de Privacidad</a>
+                <span class="separator">●</span>
+                <a href="#" class="policy-link">Política de Reembolso</a>
+            </p>
+        </div>
+        </footer>
+
+</main>
+
+<!-- <script src="js/script.js"></script>-->
+
+
+<script src="js/script.js"></script>
+
+
+</body>
+</html>

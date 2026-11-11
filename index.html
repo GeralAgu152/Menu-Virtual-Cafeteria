@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--LINKING FONT AWESOME FOR ICONS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>✨ CoffeeCloud - Inicio</title>
+</head>
+
+<body>
+    <!--HEADER / NAVBAR-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">☕ CoffeeCloud</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#hero-section" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Acerca</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menú</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#booking" class="nav-link">reserva</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contacto</a>
+                </li>
+                <li class="nav-item order-icon-container">
+                    <a href="factura.html" id="order-icon-link" title="Ver Factura">
+                        <i class="fas fa-receipt" id="order-icon"></i>
+                    </a>
+                    <span id="order-count">0</span>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+
+
+        </nav>
+    </header>
+
+    <main>
+        <!--HERO SECTION-->
+        <section class="hero-section" id="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">🔥 Latidos de Café</h2>
+                    <h3 class="subtitle">Donde el café abraza el alma y los 
+                        sueños despiertan!</h3>
+                    <p class="description">De la tierra a tu taza, cultivamos mucho más que café: 
+                        cultivamos momentos, amistades y memorias que huelen a 
+                        hogar y saben a esperanza.
+                    </p>
+                    <div class="buttons">
+                        <a href="#menu" class="button order-now">Ordena ahora</a>
+                        <a href="#contact" class="button contact-us">Contáctanos</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/coffee-hero-section.png" alt="Hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!--ABOUT SECTION-->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/about-image.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">ACERCA DE NOSOTROS</h2>
+                    <p class="text">En CoffeCloud combinamos pasión, calidad y tradición para ofrecerte 
+                        una experiencia única en cada visita. Nuestro café es seleccionado cuidadosamente y nuestros 
+                        productos son elaborados con ingredientes frescos para que 
+                        disfrutes sabores auténticos en cada momento.
+                        Ahora, a través de nuestro menú virtual, queremos acercarte aún más a la calidez y el sabor 
+                        que nos caracterizan. <br>
+                        Gracias por elegirnos y ser parte de nuestra historia.
+                    </p>
+
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- MENU SECTION-->
+
+        <section class="menu-section" id="menu">
+            <h2 class="section-title">Nuestro Menú</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/hot-beverages.png" alt="Bebidas Clientes" class="menu-image">
+                        <h3 class="name">Bebidas</h3>
+                        <p class="text"> Nuestra selección de bebidas 
+                            te ofrece la calidez perfecta para cualquier ocasión.</p>
+                            <a href="bebidas.html" class="button-ver-mas">Ver más</a>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/light-meals.png" alt="Hamburguesa" class="menu-image">
+                        <h3 class="name">Comidas ligeras</h3>
+                        <p class="text"> Mordiscos ligeros para cuando tienes poca hambre.</p>
+                        <a href="comidas-ligeras.html" class="button-ver-mas">Ver más</a>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/special-combo.png" alt="Combos Especiales" class="menu-image">
+                        <h3 class="name">Combos Especiales</h3>
+                        <p class="text"> Creamos las combinaciones de comida 
+                            y bebida que te encantarán.</p>
+                        <a href="combos-especiales.html" class="button-ver-mas">Ver más</a>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/desserts.png" alt="Postres" class="menu-image">
+                        <h3 class="name">Postres</h3>
+                        <p class="text"> Embárcate en una aventura de sabores
+                            que satisfará todos tus sentidos..</p>
+                        <a href="postres.html" class="button-ver-mas">Ver más</a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+
+        <!-- RESERVATION SECTION-->
+        <section class="booking" id="booking">
+            <h2 class="section-title">Reserva Ahora</h2>
+            <div class="section-content">
+                <p class="sub-title">
+                    ¡Reserva tu mesa ahora y 
+                    disfruta de una experiencia gastronómica 
+                    inolvidable! 🍽✨
+                </p>
+            </div>
+            
+            <form action="#" class="contact-form">
+                <div class="form-group">
+                    <label for="full-name">Nombre completo</label>
+                    <input type="text" id="full-name" name="full-name" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone-number">Número telefónico</label>
+                    <input type="tel" id="phone-number" name="phone-number" class="form-input" required
+                    pattern="[0-9]{10}" maxlength="10"
+                    title="Debe contener exactamente 10 dígitos numéricos">
+                </div>
+
+                <div class="form-group">
+                    <label for="person-count">Cantidad de personas</label>
+                    <input type="number" id="person-count" name="person-count" min="1" max="20" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="reservation-time">¿A qué hora?</label>
+                    <input type="time" id="reservation-time" name="reservation-time" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="reservation-date">¿Para qué día?</label>
+                    <input type="date" id="reservation-date" name="reservation-date" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Comentarios (opcional)</label>
+                    <textarea id="message" name="message" class="form-input" placeholder="¿Deseas terraza, mesa tranquila, etc?"></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+        </section>
+
+
+        <!--CONTACT SECTION-->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contáctanos</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>coffecloud@gmail.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+57 313 631 26 30</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>Calle Magnolia #45, Barrio Las Palmeras, Medellín</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p> Lunes a Viernes: 8:00 a.m. - 7:00 p.m. </p>  
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Sábados: 9:00 a.m. - 5:00 p.m.</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Domingos y festivos: Cerrado</p>
+                    </li>
+
+
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Tu nombre" class="form-input" required>
+                    <input type="email" placeholder="Tu correo" class="form-input" required>
+                    <textarea placeholder="Tu mensaje" class="form-input" required></textarea>
+                    <button class="submit-button">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+
+        <!-- FOOTER SECTION -->
+        <footer class="footer-section">
+        <div class="section-content">
+            <p class="copyright-text">© 2025 Coffee Shop</p>
+
+            <div class="social-link-list">
+                <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+
+            <p class="policy-text">
+                <a href="#" class="policy-link">Póliticas de Privacidad</a>
+                <span class="separator">●</span>
+                <a href="#" class="policy-link">Política de Reembolso</a>
+            </p>
+        </div>
+        </footer>
+
+
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

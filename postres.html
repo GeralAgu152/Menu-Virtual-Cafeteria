@@ -1,0 +1,524 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>✨ CoffeeCloud - Postres</title>
+</head>
+
+<body>
+
+<header>
+        <nav class="navbar section-content">
+            <a href="index.html" class="nav-logo">
+                <h2 class="logo-text">☕ CoffeeCloud</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">Acerca</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#menu" class="nav-link">Menú</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#booking" class="nav-link">reserva</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contacto</a>
+                </li>
+                <li class="nav-item order-icon-container">
+                    <a href="factura.html" id="order-icon-link" title="Ver Factura">
+                        <i class="fas fa-receipt" id="order-icon"></i>
+                    </a>
+                    <span id="order-count">0</span>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="menu-section" id="postres-menu">
+            <h2 class="section-title">Nuestros Postres</h2>
+
+
+            <div class="panaderia-dulce-navigation-buttons">
+                <a href="#postres-individuales-section" class="button-category">Postres Individuales</a>
+                <a href="#postres-grupales-section" class="button-category">Postres Grupales</a>
+                
+            </div>
+
+
+
+            <h3 class="subsection-title" id="postres-individuales-section">Postres Individuales</h3>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/brownie-chocolate.jpg" alt="Brownie de Chocolate Fudge" class="menu-image">
+                        <h3 class="name">Brownie de Chocolate Fudge</h3>
+                        <p class="text">Irresistible brownie denso y chocolatoso, con un interior húmedo y trozos de chocolate. Perfecto para los amantes del cacao.</p>
+                        <p class="price">$7.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/galleta-chocochips.jpg" alt="Galleta Choco Chips XL" class="menu-image">
+                        <h3 class="name">Galleta Choco Chips XL</h3>
+                        <p class="text">Crujiente por fuera, suave por dentro, cargada de trozos de chocolate. Un clásico reconfortante.</p>
+                        <p class="price">$4.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/tarta-manzana.jpg" alt="Porción de Tarta de Manzana Casera" class="menu-image">
+                        <h3 class="name">Porción de Tarta de Manzana Casera</h3>
+                        <p class="text">Generosa porción de tarta con manzanas caramelizadas y especiadas bajo una crujiente cubierta. Se puede calentar ligeramente.</p>
+                        <p class="price">$9.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/pan-banano.jpg" alt="Pan de Banano con Nueces" class="menu-image">
+                        <h3 class="name">Pan de Banano con Nueces</h3>
+                        <p class="text">Húmedo y aromático pan dulce, elaborado con bananos maduros y un toque de nueces picadas.</p>
+                        <p class="price">$6.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <h3 class="subsection-title" id="postres-grupales-section">Postres Grupales</h3>
+            <div class="postres-grupales-navigation-buttons">
+                <a href="#nuestras-tortas-compartir-section" class="button-category">Nuestras Tortas para Compartir</a>
+                <a href="#colecciones-mini-postres-section" class="button-category">Colecciones de Mini Postres</a>
+                <a href="#delicias-reuniones-section" class="button-category">Delicias para Reuniones</a>
+            </div>
+
+            <h3 class="subsection-title" id="nuestras-tortas-compartir-section">Nuestras Tortas para Compartir</h3>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/Torta-Selva-Negra.jpg" alt="Torta Selva Negra Grande" class="menu-image">
+                        <h3 class="name">Torta Selva Negra Clásica (8 porciones)</h3>
+                        <p class="text">Bizcocho de chocolate húmedo, crema chantilly, cerezas y virutas de chocolate. Un clásico elegante para compartir.</p>
+                        <p class="price">$65.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/Mini-Tartaletas-Frutales.jpg" alt="Mini Tartaletas Frutales Surtidas" class="menu-image">
+                        <h3 class="name">Mini Tartaletas Frutales Surtidas (4 unidades)</h3>
+                        <p class="text">Delicadas tartaletas individuales con base de masa sablé, rellenas de crema pastelera y cubiertas con una vibrante selección de frutas frescas de temporada.</p>
+                        <p class="price">$25.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/Waffle-Clásico.jpg" alt="Waffle Clásico con Fresas y Crema" class="menu-image">
+                        <h3 class="name">Waffle Clásico con Fresas y Crema</h3>
+                        <p class="text">Un waffle recién hecho y esponjoso, cubierto generosamente con crema batida suave y fresas frescas. Un desayuno o merienda indulgente.</p>
+                        <p class="price">$16.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/torta-zanahoria-grande.jpg" alt="Torta de Zanahoria y Nuez Familiar" class="menu-image">
+                        <h3 class="name">Torta de Zanahoria y Nuez (8-10 porciones)</h3>
+                        <p class="text">Húmeda y especiada torta de zanahoria con trozos de nuez, cubierta con un exquisito frosting de queso crema. Un clásico reconfortante.</p>
+                        <p class="price">$68.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                <li class="menu-item">
+                    <img src="images/cheesecake-arandanos-grande.jpg" alt="Cheesecake de Arándanos Grande" class="menu-image">
+                    <h3 class="name">Cheesecake de Arándanos (8 porciones)</h3>
+                    <p class="text">Suave y cremoso cheesecake horneado sobre base de galleta, coronado con una salsa brillante de arándanos frescos.</p>
+                    <p class="price">$70.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                <li class="menu-item">
+                    <img src="images/torta-chocolate-blanco-frambuesa.jpg" alt="Torta Chocolate Blanco y Frambuesa" class="menu-image">
+                    <h3 class="name">Torta Chocolate Blanco y Frambuesa (8 porciones)</h3>
+                    <p class="text">Elegante bizcocho esponjoso con capas de crema de chocolate blanco y un toque ácido de mermelada de frambuesas.</p>
+                    <p class="price">$75.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                </ul>
+            </div>
+
+            <h3 class="subsection-title" id="colecciones-mini-postres-section">Colecciones de Mini Postres</h3>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/Mini-Postres.jpg" alt="Caja de Mini Postres Variados" class="menu-image">
+                        <h3 class="name">Caja Surtida de Mini Postres (12 unidades)</h3>
+                        <p class="text">Variedad de mini brownies, mini cheesecakes, mini alfajores y mini tartas de frutas. Perfecta para cualquier reunión.</p>
+                        <p class="price">$50.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                    <img src="images/caja-alfajores.jpg" alt="Caja de Alfajores Artesanales" class="menu-image">
+                    <h3 class="name">Caja Surtida de Alfajores (10 unidades)</h3>
+                    <p class="text">Selección de alfajores de maicena y chocolate, rellenos de dulce de leche y decorados con coco rallado o lluvia de chocolate.</p>
+                    <p class="price">$38.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                <li class="menu-item">
+                    <img src="images/mini-muffins-variados.jpg" alt="Bandeja de Mini Muffins Variados" class="menu-image">
+                    <h3 class="name">Bandeja de Mini Muffins (9 unidades)</h3>
+                    <p class="text">Variedad de mini muffins de arándanos, chocolate y vainilla con chips, perfectos para un brunch o coffee break.</p>
+                    <p class="price">$42.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                <li class="menu-item">
+                    <img src="images/mini-cupcakes-surtidos.jpg" alt="Colección de Mini Cupcakes Surtidos" class="menu-image">
+                    <h3 class="name">Colección de Mini Cupcakes (12 unidades)</h3>
+                    <p class="text">Pequeños y encantadores cupcakes en sabores variados (vainilla, chocolate, red velvet), con coloridos frostings. Ideales para eventos.</p>
+                    <p class="price">$45.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                <li class="menu-item">
+                    <img src="images/minipays-surtidos.jpg" alt="Mini Pays Surtidos" class="menu-image">
+                    <h3 class="name">Mini Pays Surtidos (6 unidades)</h3>
+                    <p class="text">Un surtido perfecto de mini pays de limón, coco y chocolate. Deliciosos bocados para complacer todos los gustos.</p>
+                    <p class="price">$35.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                <li class="menu-item">
+                    <img src="images/macarons-box.jpg" alt="Caja de Macarons Artesanales" class="menu-image">
+                    <h3 class="name">Caja de Macarons Artesanales (8 unidades)</h3>
+                    <p class="text">Delicados y coloridos macarons con rellenos variados (frambuesa, chocolate, vainilla, pistacho). Un toque de elegancia francesa.</p>
+                    <p class="price">$40.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                </ul>
+            </div>
+
+            <h3 class="subsection-title" id="delicias-reuniones-section">Delicias para Reuniones</h3>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/Torta-Red-Velvet.jpg" alt="Torta Red Velvet en Bandeja" class="menu-image">
+                        <h3 class="name">Torta Red Velvet en Bandeja (6-8 porciones)</h3>
+                        <p class="text">Bizcocho Red Velvet húmedo con un suave y cremoso frosting de queso crema, listo para compartir. Perfecta para cualquier ocasión especial.</p>
+                        <p class="price">$52.000 COP</p> 
+                        <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                    <img src="images/brazo-reina-bandeja.jpg" alt="Brazo de Reina de Fresa Grande" class="menu-image">
+                    <h3 class="name">Brazo de Reina de Fresa (6-8 porciones)</h3>
+                    <p class="text">Esponjoso bizcocho enrollado, relleno de crema pastelera y mermelada de fresas, espolvoreado con azúcar glas. Un clásico casero.</p>
+                    <p class="price">$48.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                <li class="menu-item">
+                    <img src="images/postre-tres-leches-familiar.jpg" alt="Postre de Tres Leches Familiar" class="menu-image">
+                    <h3 class="name">Postre Tres Leches Familiar (6-8 porciones)</h3>
+                    <p class="text">Tierna torta bañada en una rica mezcla de tres leches, con una capa de crema batida y un toque de canela. Irresistiblemente húmedo.</p>
+                    <p class="price">$55.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                <li class="menu-item">
+                    <img src="images/pay-limon-grande.jpg" alt="Pay de Limón XL" class="menu-image">
+                    <h3 class="name">Pay de Limón XL (8 porciones)</h3>
+                    <p class="text">Crujiente base de galleta con un relleno cremoso de limón, coronado con un suave merengue tostado. Fresco y delicioso.</p>
+                    <p class="price">$50.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                <li class="menu-item">
+                    <img src="images/chocoflan-familiar.jpg" alt="Chocoflan Familiar" class="menu-image">
+                    <h3 class="name">Chocoflan Familiar (8 porciones)</h3>
+                    <p class="text">Combinación perfecta de pastel de chocolate y flan napolitano, con dulce de leche. Un postre sorprendente y delicioso para compartir.</p>
+                    <p class="price">$58.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                <li class="menu-item">
+                    <img src="images/gelatina-mosaico-grande.jpg" alt="Gelatina Mosaico Familiar" class="menu-image">
+                    <h3 class="name">Gelatina Mosaico Familiar (10-12 porciones)</h3>
+                    <p class="text">Divertida y colorida gelatina de leche con cubos de gelatina de sabores frutales. Ideal para celebraciones infantiles o un toque fresco en cualquier reunión.</p>
+                    <p class="price">$45.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                </ul>
+            </div>
+
+
+                </ul>
+            </div>
+        </section>
+
+                    <a href="#postres-menu" class="back-to-top-button fas fa-arrow-up" id="backToTopBtn">Volver a Inicio</a>
+
+---
+
+        <footer class="footer-section">
+        <div class="section-content">
+            <p class="copyright-text">© 2025 Coffee Shop</p>
+
+            <div class="social-link-list">
+                <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+
+            <p class="policy-text">
+                <a href="#" class="policy-link">Póliticas de Privacidad</a>
+                <span class="separator">●</span>
+                <a href="#" class="policy-link">Política de Reembolso</a>
+            </p>
+        </div>
+        </footer>
+
+
+        </main>
+
+        <script src="js/script.js"></script>
+
+            
+
+</body>
+
+</html>

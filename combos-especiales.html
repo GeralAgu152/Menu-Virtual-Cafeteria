@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>✨ CoffeeCloud - Combos Especiales</title>
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar section-content">
+        <a href="index.html" class="nav-logo">
+            <h2 class="logo-text">☕ CoffeeCloud</h2>
+        </a>
+        <ul class="nav-menu">
+            <button id="menu-close-button" class="fas fa-times"></button>
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a href="index.html#about" class="nav-link">Acerca</a>
+            </li>
+            <li class="nav-item">
+                <a href="index.html#menu" class="nav-link">Menú Principal</a>
+            </li>
+            <li class="nav-item">
+                <a href="postres.html" class="nav-link">Postres</a> </li>
+            <li class="nav-item">
+                <a href="comidas-ligeras.html" class="nav-link">Comidas Ligeras</a> </li>
+            <li class="nav-item">
+                <a href="combos.html" class="nav-link">Combos</a> </li>
+            <li class="nav-item">
+                <a href="index.html#booking" class="nav-link">reserva</a>
+            </li>
+            <li class="nav-item">
+                <a href="index.html#contact" class="nav-link">Contacto</a>
+            </li>
+            <li class="nav-item order-icon-container">
+                    <a href="factura.html" id="order-icon-link" title="Ver Factura">
+                        <i class="fas fa-receipt" id="order-icon"></i>
+                    </a>
+                    <span id="order-count">0</span>
+                </li>
+        </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+    </nav>
+</header>
+
+<main>
+    <section class="menu-section" id="combos-menu">
+        <h2 class="section-title">Nuestros Combos Especiales</h2>
+
+        <div class="combos-navigation-buttons"> 
+            <a href="#combos-desayuno-merienda-section" class="button-category">Desayuno y Merienda</a>
+            <a href="#combos-almuerzo-fuerte-section" class="button-category">Almuerzo Fuerte</a>
+            <a href="#combos-compartir-section" class="button-category">Para Compartir</a>
+        </div>
+
+        <h3 class="subsection-title" id="combos-desayuno-merienda-section">Combos de Desayuno y Merienda</h3>
+        <div class="section-content">
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <img src="images/Açaí- Oasis-Tropical.jpg" alt="Açaí Oasis Tropical" class="menu-image">
+                    <h3 class="name">Açaí Oasis Tropical</h3>
+                    <p class="text">Puré cremoso de açaí orgánico, coronado con mango, kiwi, pitahaya, granola artesanal y coco tostado. ¡Tu escape saludable al trópico!</p>
+                    <p class="price" data-base-price="19500">$19.500 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                <li class="menu-item">
+                    <img src="images/Dumplings-Dorados.jpg" alt="Dumplings Dorados del Chef" class="menu-image">
+                    <h3 class="name">Dumplings Dorados</h3>
+                    <p class="text">Crujientes y tiernos dumplings rellenos de una mezcla sabrosa de carne y vegetales, dorados a la perfección y acompañados de salsa especial.</p>
+                    <p class="price" data-base-price="9500">$9.500 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                <li class="menu-item">
+                    <img src="images/Tamal-Tradicional.jpg" alt="Tamal Campesino Tradicional" class="menu-image">
+                    <h3 class="name">Tamal Campesino Tradicional</h3>
+                    <p class="text">Nuestro auténtico tamal campesino, relleno de suave masa de maíz, carne de cerdo y pollo, arroz, huevo, y verduras frescas. Envuelto en hoja de plátano, ¡un sabor casero y reconfortante!</p>
+                    <p class="price" data-base-price="15000">$15.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                <li class="menu-item">
+                    <img src="images/Tamal-Tolimense.jpg" alt="Tamal Tolimense Tradicional" class="menu-image">
+                    <h3 class="name">Tamal Tolimense Tradicional</h3>
+                    <p class="text">Disfruta la autenticidad del Tolima con nuestro tamal. Generosa masa de maíz, arroz, arvejas, zanahoria, papa, cerdo y pollo, cocido a la perfección en hoja de plátano. Servido con pan fresco. ¡Un manjar completo y lleno de sabor!</p>
+                    <p class="price" data-base-price="17000">$17.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+            </ul>
+        </div>
+
+        <h3 class="subsection-title" id="combos-almuerzo-fuerte-section">Combos de Almuerzos y Platos Fuertes</h3>
+        <div class="section-content">
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <img src="images/Nikumaki-Cerdo.jpg" alt="Nikumaki de Cerdo Glaseado" class="menu-image">
+                    <h3 class="name">Nikumaki de Cerdo Glaseado</h3>
+                    <p class="text">Delicioso rollo de arroz japonés envuelto en fina loncha de cerdo, caramelizado con nuestra salsa teriyaki casera. ¡Un bocado umami irresistible!</p>
+                    <p class="price" data-base-price="13000">$13.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                <li class="menu-item">
+                    <img src="images/Milanesa-Clásica.jpg" alt="Milanesa Clásica con Puré Cremoso" class="menu-image">
+                    <h3 class="name">Milanesa Clásica con Puré Cremoso</h3>
+                    <p class="text">Jugosa milanesa de res empanizada y dorada, acompañada de un suave puré de papa casero y verduras al vapor. ¡Un clásico reconfortante!</p>
+                    <p class="price" data-base-price="22000">$22.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                            <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                                <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+                <li class="menu-item">
+                    <img src="images/Ramen-Umami.jpg" alt="Ramen Umami con Cerdo Chashu" class="menu-image">
+                    <h3 class="name">Ramen Umami con Cerdo Chashu</h3>
+                    <p class="text">Reconfortante ramen con caldo rico en umami, fideos al dente, tierno cerdo chashu, huevo marinado y vegetales frescos. ¡Una explosión de sabor japonés!</p>
+                    <p class="price" data-base-price="28000">$28.000 COP</p>
+                    <div class="item-actions">
+                    <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                    <div class="quantity-selector hidden">
+                        <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                        <span class="qty-value">1</span>
+                        <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                    </div>
+
+                    </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <img src="images/Lasaña-Boloñesa.jpg" alt="Lasaña Boloñesa Clásica" class="menu-image">
+                    <h3 class="name">Lasaña Boloñesa Clásica</h3>
+                    <p class="text">Capas de pasta fresca, nuestra rica salsa boloñesa de carne, bechamel cremosa y queso gratinado. ¡Un clásico italiano que te encantará!</p>
+                    <p class="price" data-base-price="24000">$24.000 COP</p>
+                    <div class="item-actions">
+                    <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                    <div class="quantity-selector hidden">
+                        <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                        <span class="qty-value">1</span>
+                        <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                    </div>
+
+                    </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <img src="images/Spaghetti-Artesanal.jpg" alt="Spaghetti Artesanal" class="menu-image">
+                    <h3 class="name">Spaghetti Artesanal</h3>
+                    <p class="text">Espagueti al dente con nuestra auténtica salsa boloñesa de carne, cocinada a fuego lento para un sabor profundo y casero. ¡Un favorito para todos!</p>
+                    <p class="price" data-base-price="21000">$21.000 COP</p>
+                    <div class="item-actions">
+                    <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                    <div class="quantity-selector hidden">
+                        <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                        <span class="qty-value">1</span>
+                        <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                    </div>
+
+                    </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <h3 class="subsection-title" id="combos-compartir-section">Combos para Compartir</h3>
+        <div class="section-content">
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <img src="images/Brochetas-Mediterráneas.jpg" alt="Brochetas Mediterráneas" class="menu-image">
+                    <h3 class="name">Brochetas Mediterráneas</h3>
+                    <p class="text">Tiernos trozos de res marinados a la parrilla, intercalados con pimientos coloridos, cebolla dulce y tomates cherry. Perfectas para compartir o como un delicioso plato principal ligero.</p>
+                    <p class="price" data-base-price="28000">$28.000 COP</p>
+                    <div class="item-actions">
+                    <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                    <div class="item-actions">
+                    <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                    <div class="quantity-selector hidden">
+                        <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                        <span class="qty-value">1</span>
+                        <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                    </div>
+
+                    </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                    </div>
+
+                    </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                    </div>
+                </li>
+
+                <li class="menu-item">
+                    <img src="images/Papas-Deluxe-con Queso.jpg" alt="Papas Deluxe con Queso y Tocineta" class="menu-image">
+                    <h3 class="name">Papas Deluxe con Queso y Tocineta</h3>
+                    <p class="text">Crujientes papas fritas cubiertas con una generosa capa de queso fundido y espolvoreadas con trocitos de tocineta crocante. ¡Una explosión de sabor!</p>
+                    <p class="price" data-base-price="18500">$18.500 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                    <div class="item-actions">
+                    <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                    <div class="quantity-selector hidden">
+                        <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                        <span class="qty-value">1</span>
+                        <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                    </div>
+
+                    </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                    </div>
+                </li>
+
+                <li class="menu-item">
+                    <img src="images/Mini-Corn-Dogs.jpg" alt="Mini Corn Dogs Clásicos" class="menu-image">
+                    <h3 class="name">Mini Corn Dogs Clásicos</h3>
+                    <p class="text">Deliciosos mini salchichas cubiertas con una capa dorada de masa de maíz, fritas a la perfección. Acompañados de mostaza y salsa de tomate. ¡Ideales para un antojo!</p>
+                    <p class="price" data-base-price="16000">$16.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+
+                <li class="menu-item">
+                    <img src="images/Festín-Crispy-Chicken.jpg" alt="Festín Crispy Chicken" class="menu-image">
+                    <h3 class="name">Festín Crispy Chicken</h3>
+                    <p class="text">Una bandeja generosa con crujientes piezas de pollo frito, hamburguesas con pollo crispy y coleslaw, acompañadas de una montaña de papas fritas y salsas especiales.</p>
+                    <p class="price" data-base-price="65000">$65.000 COP</p>
+                    <div class="item-actions">
+                        <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                </li>
+
+                <li class="menu-item">
+                    <img src="images/Sliders-Res.jpg" alt="Sliders de Res Premium" class="menu-image">
+                    <h3 class="name">Sliders de Res Premium</h3>
+                    <p class="text">Pequeñas y deliciosas hamburguesas con jugosa carne de res, lechuga fresca y pan suave con ajonjolí. Perfectas para compartir o probar un bocado irresistible.</p>
+                    <p class="price" data-base-price="32000">$32.000 COP</p>
+                    <div class="item-actions">
+                    <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                    <div class="quantity-selector hidden">
+                        <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                        <span class="qty-value">1</span>
+                        <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                    </div>
+
+                    </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                    </div>
+                </li>
+
+                <li class="menu-item">
+                    <img src="images/S'mores-Experience.jpg" alt="S'mores Experience Board" class="menu-image">
+                    <h3 class="name">S'mores Experience Board</h3>
+                    <p class="text">Una tabla interactiva con todo lo necesario para crear tus propios s'mores: malvaviscos suaves, galletas Graham, trozos de chocolate y galletas con crema de chocolate. ¡Diversión garantizada!</p>
+                    <p class="price" data-base-price="30000">$30.000 COP</p>
+                    <div class="item-actions">
+                    <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                    <div class="quantity-selector hidden">
+                        <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                        <span class="qty-value">1</span>
+                        <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                    </div>
+
+                    </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                    </div>
+                </li>
+
+                <li class="menu-item">
+                    <img src="images/Plato-Tropical-Frutas.jpg" alt="Plato Tropical de Frutas y Yogur" class="menu-image">
+                    <h3 class="name">Plato Tropical de Frutas y Yogur</h3>
+                    <p class="text">Un festín de frutas frescas de temporada, incluyendo uvas, fresas, moras, kiwi, piña y naranja, acompañadas de cremosos dips de yogur griego con frutos rojos, mango y frutos del bosque.</p>
+                    <p class="price" data-base-price="21000">$21.000 COP</p>
+                    <div class="item-actions">
+                    <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                    <div class="quantity-selector hidden">
+                        <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                        <span class="qty-value">1</span>
+                        <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                    </div>
+
+                    </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                    </div>
+                </li>
+
+                </ul>
+        </div>
+
+
+        <a href="#combos-menu" class="back-to-top-button fas fa-arrow-up" id="backToTopBtn">Volver Arriba</a>
+
+    </section>
+
+
+        ---
+
+
+    <footer class="footer-section">
+    <div class="section-content">
+        <p class="copyright-text">© 2025 Coffee Shop</p>
+
+        <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <p class="policy-text">
+            <a href="#" class="policy-link">Póliticas de Privacidad</a>
+            <span class="separator">●</span>
+            <a href="#" class="policy-link">Política de Reembolso</a>
+        </p>
+    </div>
+    </footer>
+
+</main>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

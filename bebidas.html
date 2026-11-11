@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--LINKING FONT AWESOME FOR ICONS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>✨ CoffeeCloud - Bebidas</title>
+</head>
+
+<body>
+
+<!--HEADER / NAVBAR-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="index.html" class="nav-logo">
+                <h2 class="logo-text">☕ CoffeeCloud</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">Acerca</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#menu" class="nav-link">Menú</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#booking" class="nav-link">reserva</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contacto</a>
+                </li>
+                <li class="nav-item order-icon-container">
+                    <a href="factura.html" id="order-icon-link" title="Ver Factura">
+                        <i class="fas fa-receipt" id="order-icon"></i>
+                    </a>
+                    <span id="order-count">0</span>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+<!-- MENU SECTION DRINKS-->
+
+        <section class="menu-section" id="bebidas-menu">
+            <h2 class="section-title">Nuestras Bebidas</h2>
+
+            <div class="bebidas-navigation-buttons">
+                <a href="#bebidas-calientes-section" class="button-category" >Calientes</a>
+                <a href="#bebidas-frias-section" class="button-category" >Heladas</a>
+            </div>
+
+            <h3 class="subsection-title" id="bebidas-calientes-section">Bebidas Calientes</h3>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/Cafe-Clásico-Cloud.jpg" alt="Café Clásico Cloud" class="menu-image">
+                        <h3 class="name">Café Clásico Cloud</h3>
+                        <p class="text">Una taza de café suave y aromático, preparado con granos 100% arábica. Ideal para acompañar tus mañanas o tardes de estudio.</p>
+                        <p class="price">$6.500 COP</p>
+
+                        <div class="item-actions">
+                        <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/Capuccino-Nevado.jpg" alt="Capuccino Nevado" class="menu-image">
+                        <h3 class="name">Capuccino Nevado</h3>
+                        <p class="text">Cremoso capuccino espolvoreado con canela, cubierto de espuma de leche. Un toque dulce y reconfortante en cada sorbo.</p>
+                        <p class="price">$8.000 COP</p>
+
+                        <div class="item-actions">
+                        <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/Mocha-Cloud.jpg" alt="Mocha Cloud" class="menu-image">
+                        <h3 class="name">Mocha Cloud</h3>
+                        <p class="text">Delicioso café mocha con chocolate semiamargo y crema batida. El equilibrio perfecto entre café y cacao.</p>
+                        <p class="price">$9.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/Latte-Caramelo.jpg" alt="Latte Caramelo" class="menu-image">
+                        <h3 class="name">Latte Caramelo</h3>
+                        <p class="text">Suave latte con un toque de caramelo y leche vaporizada, decorado con sirope. Perfecto para los amantes de los sabores dulces.</p>
+                        <p class="price">$8.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/infusion-miel-canela.jpg" alt="Infusión Miel & Canela" class="menu-image">
+                        <h3 class="name">Infusión Miel & Canela</h3>
+                        <p class="text">Delicada mezcla de té con rodajas de limón fresco, ramitas de canela y miel natural.</p>
+                        <p class="price">$7.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/cafe-supreme-crema.jpg" alt="Café Supreme Crema" class="menu-image">
+                        <h3 class="name">Café Supreme Crema</h3>
+                        <p class="text">Café oscuro con caramelo, coronado con crema batida y espolvoreado de cacao.</p>
+                        <p class="price">$9.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/latte-art.jpg" alt="Latte Bunny Art" class="menu-image">
+                        <h3 class="name">Latte Art</h3>
+                        <p class="text">Suave latte con arte en espuma con la figura que desees. Perfecto para alegrar tu día.</p>
+                        <p class="price">$8.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            
+            <h3 class="subsection-title" id="bebidas-frias-section">Bebidas Heladas</h3>
+            <div class="section-content">
+
+                            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/Frappe-de-Vainilla.jpg" alt="Frappe de Vainilla" class="menu-image">
+                        <h3 class="name">Frappe de Vainilla</h3>
+                        <p class="text">Bebida fría a base de café, vainilla y hielo triturado, cubierta con crema chantilly. Refrescante y deliciosa para los días calurosos.</p>
+                        <p class="price">$10.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/Iced-Latte.jpg" alt="Iced Latte" class="menu-image">
+                        <h3 class="name">Iced Latte</h3>
+                        <p class="text">Espresso con leche fría y hielo, un clásico refrescante.</p>
+                        <p class="price">$9.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/Limonada-Fresa.jpg" alt="Limonada de Cereza" class="menu-image">
+                        <h3 class="name">Limonada de Fresa</h3>
+                        <p class="text">Refrescante limonada natural con un toque dulce y vibrante de Fresa.</p>
+                        <p class="price">$7.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/Te-Helado-Durazno.jpg" alt="Té Helado de Durazno" class="menu-image">
+                        <h3 class="name">Té Helado de Durazno</h3>
+                        <p class="text">Té negro frío con esencia natural de durazno, perfecto para refrescarte.</p>
+                        <p class="price">$6.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/Boba-Tea.jpg" alt="Té Helado de Durazno" class="menu-image">
+                        <h3 class="name">Eclipse de Caramelo</h3>
+                        <p class="text"> Refrescante boba tea con té negro, leche cremosa y perlas de tapioca, infusionado con dulce caramelo.</p>
+                        <p class="price">$12.500 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                    
+                    <li class="menu-item">
+                        <img src="images/chocolate-overload-frappe.png" alt="Latte Bunny Art" class="menu-image">
+                        <h3 class="name">Chocolate Overload Frappe</h3>
+                        <p class="text">Suave latte con arte en espuma con la figura que desees. Perfecto para alegrar tu día.</p>
+                        <p class="price">$11.000 COP</p>
+                        <div class="item-actions">
+                        <div class="order-control">
+                        <a href="#" class="button-add-order">Añadir a la Orden</a>
+                        <div class="quantity-selector hidden">
+                            <button class="qty-btn minus"><i class="fas fa-minus-circle"></i></button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+
+                        </div>
+                            <a href="#" class="button-takeaway">Para Llevar</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="item-notes" style="display: none;">
+                <label for="notes-cafe-espresso">Notas/Modificaciones:</label>
+                <input type="text" id="notes-cafe-espresso" class="notes-input" placeholder="Ej: sin azúcar, leche de almendras">
+            </div>
+        </section>
+
+                        <a href="#bebidas-menu" class="back-to-top-button fas fa-arrow-up" id="backToTopBtn">Volver a Inicio</a>
+
+
+        ---
+
+        <!-- FOOTER SECTION -->
+        <footer class="footer-section">
+        <div class="section-content">
+            <p class="copyright-text">© 2025 Coffee Shop</p>
+
+            <div class="social-link-list">
+                <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+
+            <p class="policy-text">
+                <a href="#" class="policy-link">Póliticas de Privacidad</a>
+                <span class="separator">●</span>
+                <a href="#" class="policy-link">Política de Reembolso</a>
+            </p>
+        </div>
+        </footer>
+
+
+        </main>
+
+        <script src="js/script.js"></script>
+
+</body>
+
+</html>
